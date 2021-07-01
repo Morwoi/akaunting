@@ -50,7 +50,6 @@ const SidebarStore = {
     }
   }
 };
-
 const SidebarPlugin = {
   install(Vue, options) {
     if (options && options.sidebarLinks) {
