@@ -21,7 +21,7 @@ const SidebarStore = {
       docClasses.remove('g-sidenav-pinned')
     }
   },
-  
+
   toggleMinimize() {
     this.isMinimized = !this.isMinimized;
     let docClasses = document.body.classList
@@ -51,7 +51,6 @@ const SidebarStore = {
     }
   }
 };
-
 const SidebarPlugin = {
   install(Vue, options) {
     if (options && options.sidebarLinks) {
