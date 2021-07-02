@@ -21,6 +21,7 @@ const SidebarStore = {
       docClasses.remove('g-sidenav-pinned')
     }
   },
+  
   toggleMinimize() {
     this.isMinimized = !this.isMinimized;
     let docClasses = document.body.classList
